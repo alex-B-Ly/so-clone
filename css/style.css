@@ -5,13 +5,13 @@
 
 .test2{
   background: green;
-  height: 50px;
+  height: 80px;
 }
 
 .vote,
 .answers,
 .views{
-  height: 95%;
+  height: 70%;
 }
 
 .vote{
@@ -24,4 +24,13 @@
 
 .views{
   background: red;
+}
+
+.question-wrap{
+  background: #05FF16;
+  height: 90%;
+}
+
+.question{
+  background: white;
 }
