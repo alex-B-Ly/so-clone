@@ -33,4 +33,13 @@
 
 .question{
   background: white;
+  font-size: 1.3em;
+}
+
+.tag{
+  background: gray;
+}
+
+.aside{
+  background: #2600FF;
 }
