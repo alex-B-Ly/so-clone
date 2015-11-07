@@ -2,3 +2,26 @@
   background: red;
   height: 500px;
 }
+
+.test2{
+  background: green;
+  height: 50px;
+}
+
+.vote,
+.answers,
+.views{
+  height: 95%;
+}
+
+.vote{
+  background: blue;
+}
+
+.answers{
+  background: white;
+}
+
+.views{
+  background: red;
+}
