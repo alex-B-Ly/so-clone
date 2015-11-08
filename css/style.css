@@ -1,0 +1,45 @@
+.test{
+  background: red;
+  height: 500px;
+}
+
+.test2{
+  background: green;
+  height: 80px;
+}
+
+.vote,
+.answers,
+.views{
+  height: 70%;
+}
+
+.vote{
+  background: blue;
+}
+
+.answers{
+  background: white;
+}
+
+.views{
+  background: red;
+}
+
+.question-wrap{
+  background: #05FF16;
+  height: 90%;
+}
+
+.question{
+  background: white;
+  font-size: 1.3em;
+}
+
+.tag{
+  background: gray;
+}
+
+.aside{
+  background: #2600FF;
+}
