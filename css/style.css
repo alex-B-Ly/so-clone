@@ -21,6 +21,15 @@
   color: #628DF6;
 }
 
+.help{
+  color: #fff;
+}
+
+.form-control{
+  height: 20px;
+  margin-top: 5px;
+}
+
 /* MAIN CONTENT */
 .main-top-links{
   font-size: 0.85em;
