@@ -13,6 +13,21 @@
   font-size: 1.2em;
 }
 
+.nav-left-icons{
+  margin-left: 10px;
+  color: #A8ADA7;
+}
+
+.nav-left-icons:hover{
+  color: #A8ADA7;
+  text-decoration: none; 
+}
+
+.alex-nav-quickfix{
+  margin-left: 30px;
+  margin-right: 50px;
+}
+
 .stark{
   color: white;
 }
@@ -23,6 +38,7 @@
 
 .help{
   color: #fff;
+  font-size: 1em;
 }
 
 .form-control{
@@ -99,9 +115,10 @@
   margin-right: 2px;
   margin-top: 5px;
   color: #1A12EF;
-  padding: 1px;
+  padding: 2px;
   text-align: center;
   cursor: pointer;
+  font-size: .9em;
 }
 
 .tag:hover{
