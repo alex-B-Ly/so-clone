@@ -63,6 +63,7 @@
   background: #9BA0A0;
   color: white;
   transition: all .3s;
+  border-radius: 0;
 }
 
 .button-color:hover{
