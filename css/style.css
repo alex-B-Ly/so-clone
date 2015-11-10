@@ -10,7 +10,9 @@
 }
 
 .test2{
-  height: 70px;
+  height: 75px;
+  border-left: 0;
+  border-right: 0;
 }
 
 .vote,
