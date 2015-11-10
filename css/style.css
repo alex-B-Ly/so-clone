@@ -13,6 +13,21 @@
   font-size: 1.2em;
 }
 
+.nav-left-icons{
+  margin-left: 10px;
+  color: #A8ADA7;
+}
+
+.nav-left-icons:hover{
+  color: #A8ADA7;
+  text-decoration: none; 
+}
+
+.alex-nav-quickfix{
+  margin-left: 30px;
+  margin-right: 50px;
+}
+
 .stark{
   color: white;
 }
@@ -23,11 +38,37 @@
 
 .help{
   color: #fff;
+  font-size: 1em;
 }
 
 .form-control{
   height: 20px;
   margin-top: 5px;
+}
+
+.title-row{
+  margin-top: 30px;
+}
+
+.logo{
+  margin-bottom: 50px;
+  font-size: 1.7em;
+}
+
+.logo-bold{
+  font-weight: 600;
+}
+
+.button-color{
+  background: #9BA0A0;
+  color: white;
+  transition: all .3s;
+  border-radius: 0;
+}
+
+.button-color:hover{
+  background: #FF8A0E;
+  color: white;
 }
 
 /* MAIN CONTENT */
@@ -62,15 +103,27 @@
 .question{
   background: white;
   font-size: 1.3em;
+  transition: all 1.2s;
+}
+
+.question:hover{
+  text-decoration: none;
+  color: #F71009;
 }
 
 .tag{
-  background: #9BE1D6;
+  background: #B1F7F0;
   margin-right: 2px;
   margin-top: 5px;
   color: #1A12EF;
-  padding: 3px;
+  padding: 2px;
   text-align: center;
+  cursor: pointer;
+  font-size: .9em;
+}
+
+.tag:hover{
+  background: #77C4EC;
 }
 
 .user-info{
