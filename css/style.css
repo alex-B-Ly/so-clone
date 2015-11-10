@@ -30,6 +30,30 @@
   margin-top: 5px;
 }
 
+.title-row{
+  margin-top: 30px;
+}
+
+.logo{
+  margin-bottom: 50px;
+  font-size: 1.7em;
+}
+
+.logo-bold{
+  font-weight: 600;
+}
+
+.button-color{
+  background: #B9BFBF;
+  color: white;
+  transition: all .3s;
+}
+
+.button-color:hover{
+  background: #FF8A0E;
+  color: white;
+}
+
 /* MAIN CONTENT */
 .main-top-links{
   font-size: 0.85em;
@@ -62,15 +86,26 @@
 .question{
   background: white;
   font-size: 1.3em;
+  transition: all 1.2s;
+}
+
+.question:hover{
+  text-decoration: none;
+  color: #F71009;
 }
 
 .tag{
-  background: #9BE1D6;
+  background: #80D4FF;
   margin-right: 2px;
   margin-top: 5px;
   color: #1A12EF;
-  padding: 3px;
+  padding: 1px;
   text-align: center;
+  cursor: pointer;
+}
+
+.tag:hover{
+  background: #77C4EC;
 }
 
 .user-info{
