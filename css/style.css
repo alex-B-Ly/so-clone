@@ -1,42 +1,28 @@
 .main-top-links{
   font-size: 0.85em;
+  color: #7E7D82;
 }
 
 .active,
 .top-links-li:hover{
-  border-top: 2px solid #EF8E00;
+  background: #fff;
+  border-top: 2px solid #EF101B;
   border-bottom: 0;
 }
 
-.test{
-  background: red;
-}
-
 .test2{
-  background: green;
   height: 80px;
+  border-left: 0;
+  border-right: 0;
 }
 
 .vote,
 .answers,
 .views{
-  height: 70%;
-}
-
-.vote{
-  background: blue;
-}
-
-.answers{
-  background: white;
-}
-
-.views{
-  background: red;
+  height: 80%;
 }
 
 .question-wrap{
-  background: #05FF16;
   height: 90%;
 }
 
@@ -46,8 +32,28 @@
 }
 
 .tag{
-  background: gray;
+  background: #9BE1D6;
+  margin-right: 2px;
+  margin-top: 5px;
+  color: #1A12EF;
+  padding: 3px;
+  text-align: center;
 }
+
+.user-info{
+  margin-top: 10px;
+  font-size: 0.8em;
+}
+
+.question-info{
+  color: gray;
+}
+
+.user{
+  color: blue;
+}
+
+/* ASIDE */
 
 .aside{
   background: #2600FF;
