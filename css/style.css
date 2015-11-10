@@ -4,12 +4,14 @@
 
 .active,
 .top-links-li:hover{
-  border-top: 2px solid #EF8E00;
+  background: #fff;
+  border-top: 2px solid #EF101B;
   border-bottom: 0;
 }
 
 .test{
-  background: red;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
 }
 
 .test2{
