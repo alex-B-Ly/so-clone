@@ -10,13 +10,12 @@
 }
 
 .test{
-  border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
+  border-top: 1px solid #DBDBDB;
+  border-bottom: 1px solid #DBDBDB;
 }
 
 .test2{
-  background: green;
-  height: 80px;
+  height: 70px;
 }
 
 .vote,
@@ -25,20 +24,7 @@
   height: 70%;
 }
 
-.vote{
-  background: blue;
-}
-
-.answers{
-  background: white;
-}
-
-.views{
-  background: red;
-}
-
 .question-wrap{
-  background: #05FF16;
   height: 90%;
 }
 
@@ -48,8 +34,9 @@
 }
 
 .tag{
-  background: gray;
+  background: #88EFEF;
   margin-right: 2px;
+  color: #1A12EF;
 }
 
 .aside{
