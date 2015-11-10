@@ -2,7 +2,7 @@
 <html>
 <head>
 
-  <title>Stack Overflow Clone</title>
+  <title>Stark Overflow</title>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
 
@@ -10,10 +10,33 @@
 </head>
 <body>
 
-<!-- Marius: nav and head -->
+<!-- nav -->
+<nav class="navbar navbar-default main-nav">
+  <div class="container">
+    <div class="navbar-header">
+      <a href="#" class="dropdown-toggle nav-icon" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+      <span class="stark">Stark</span><span class="exchange">Exchange</span><span class="caret"></span></a>
+    </div>
 
+    <div class="navbar-right" role="search">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search">
+      </div>
+    </div>
+  </div>
+
+</nav>
 <!-- Alex: main !-->
 <div class="container">
+
+  <div class="row">
+    <div class="col-md-5">
+      <h3>Stark Overflow</h2>
+    </div>
+    <div class="col-md-6">
+      
+    </div>
+  </div>
 
   <!-- Alex: main questions -->
   <div class="row">
@@ -77,13 +100,174 @@
             </div>
           </div>
         </li>
+
+        <li class="list-group-item test2">
+          <div class="col-md-1 vote">
+            <div class="row">
+              <div class="col-md-12 text-center">72</div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 text-center">Votes</div>
+            </div>
+          </div>
+          <div class="col-md-1 answers">
+            <div class="row">
+              <div class="col-md-12 text-center">17</div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 text-center">Answers</div>
+            </div>
+          </div>
+          <div class="col-md-1 views">
+            <div class="row">
+              <div class="col-md-12 text-center">52</div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 text-center">Views</div>
+            </div>
+          </div>
+          <div class="col-md-9 question-wrap">
+            <div class="row">
+              <div class="col-md-12">
+                <a class="question" href="#">Correct?  (lotion / skin) ? alert("happy") : "gets the hose again";</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-8 tags">
+                <div class="col-md-2 tag">Scratch</div>
+                <div class="col-md-2 tag">CSS</div>
+                <div class="col-md-2 tag">JS</div>
+              </div>
+              <div class="col-md-4 user-info">
+                <a class="question-info" href="#">edited 10 minutes ago by</a>
+                <a href="user">Dr_Hannibal</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="list-group-item test2">
+          <div class="col-md-1 vote">
+            <div class="row">
+              <div class="col-md-12 text-center">43</div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 text-center">Votes</div>
+            </div>
+          </div>
+          <div class="col-md-1 answers">
+            <div class="row">
+              <div class="col-md-12 text-center">3</div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 text-center">Answers</div>
+            </div>
+          </div>
+          <div class="col-md-1 views">
+            <div class="row">
+              <div class="col-md-12 text-center">98</div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 text-center">Views</div>
+            </div>
+          </div>
+          <div class="col-md-9 question-wrap">
+            <div class="row">
+              <div class="col-md-12">
+                <a class="question" href="#">What is alert() ?</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-8 tags">
+                <div class="col-md-2 tag">jQuery</div>
+                <div class="col-md-2 tag">JS</div>
+              </div>
+              <div class="col-md-4 user-info">
+                <a class="question-info" href="#">answered 5 minutes ago by</a>
+                <a href="user">JS-Jedi</a>
+              </div>
+            </div>
+          </div>
+        </li>
       
       </ul>
     </div>
 
     <!-- Servio: aside -->
 
-    
+    <aside class="col-md-2">
+        <div class="panel panel-default">
+        <div class="panel-heading">
+          <h6 class="panel-title">Featured on Meta</h6>
+        </div>
+        <div class="panel-body">
+        <a href="">New Navigation Release Canidate</a> <br /> 
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h6 class="panel-title">Hot Metta Posts</h6>
+        </div>
+        <div class="panel-body">
+          <span class="badge">17</span> <a href="">What kind of post is that?</a> <br /> 
+          <span class="badge">5</span> <a href="">Another bug in snippet's "Tidy" button</a> <br /> 
+          <span class="badge">8</span> <a href="">Are there guidelines to how much "What have you tried" should be in a self an…"</a>
+        </div>
+      </div>
+
+
+      <div class="well"> <!--FAVORITE TAGS-->
+        
+        <h5>Favorite Tags</h5>
+          <div id="tags">
+            <a href="">html</a>
+            <a href="">css</a>
+            <a href="">java</a>
+            <a href="">php</a>
+          </div>
+      
+      </div><!--END FAVORITE TAGS-->
+
+
+      <div id="hire-me"> <!--LOOKING FOR A JOB-->
+        <div class="panel panel-primary">
+
+          <div class="panel-heading">
+            <h4 class="panel-title"><a href="http://careers.stackoverflow.com/jobs" target="_blank" class="top">
+            <span>Looking for a job?</span>
+            </a></h4>
+          </div>
+
+          <div class="panel-body">
+            <ul class="jobs">
+              <li>
+                <a href="" target="_blank" title="Web Developer - Data Technologies">Web Developer - Data Technologies</a> <br>
+                  <div class="company">Bloomberg<div>
+                  <div class="location" title="Princeton, NJ">Princeton, NJ</div>
+              </li>
+              <br>
+              <li>
+                <a href="" target="_blank" title="PHP Developer">Senior PHP/WordPress Developer</a> <br> 
+                  <div class="company">Phizer<div>
+                  <div class="location" title="New York, NY">New York, NY</div>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+      </div> <!-- END LOOKING FOR A JOB -->
+
+
+
+      <div><!-- HOT NETWORK QUESTIONS-->
+        
+
+
+      </div><!-- END HOT NETWORD QUESTIONS-->
+
+
+    </aside>
 
   </div>
 </div>
