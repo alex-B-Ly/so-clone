@@ -1,3 +1,27 @@
+/* NAV AND HEADER */
+.navbar{
+  min-height: 35px;
+}
+
+.main-nav{
+  background: black;
+  height: 20px;
+}
+
+.nav-icon{
+  margin-left: 60px;
+  font-size: 1.2em;
+}
+
+.stark{
+  color: white;
+}
+
+.exchange{
+  color: #628DF6;
+}
+
+/* MAIN CONTENT */
 .main-top-links{
   font-size: 0.85em;
   color: #7E7D82;
