@@ -1,3 +1,13 @@
+.main-top-links{
+  font-size: 0.85em;
+}
+
+.active,
+.top-links-li:hover{
+  border-top: 2px solid #EF8E00;
+  border-bottom: 0;
+}
+
 .test{
   background: red;
 }
